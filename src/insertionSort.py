@@ -1,4 +1,5 @@
 def insertionSort(array):
+    """Complexity : O(n**2)"""
     for i in range(1, len(array)):
         key = array[i]
         j = i - 1
