@@ -10,5 +10,3 @@ def bubbleSort(array):
         if not swapped:
             break
     return array
-
-print(bubbleSort([1, -6, 3, 7, -2, 9, -2]))
