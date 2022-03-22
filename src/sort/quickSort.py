@@ -1,4 +1,4 @@
-def quickSort(array, start=0, end=-1):
+def quickSort(array : list, start=0, end=-1):
     """Complexity : O(n**2)"""
     if end == -1:
         end += len(array)

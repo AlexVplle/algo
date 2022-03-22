@@ -1,4 +1,4 @@
-def mergeSort(array):
+def mergeSort(array : list):
     """Complexity : O(nlog(n))"""
     lengthArray = len(array)
     if lengthArray > 1:

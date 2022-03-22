@@ -1,10 +1,10 @@
 class Node:
-    def __init__(self, data):
+    def __init__(self, data : int):
         self.left = None
         self.right = None
         self.data = data
 
-    def insert(self, data):
+    def insert(self, data : int):
         if data <= self.data:
             if self.left is None:
                 self.left = Node(data)
@@ -16,7 +16,7 @@ class Node:
             else:
                 self.right.insert(data)
 
-def treeSort(array):
+def treeSort(array : list):
     """Complexity : O(n**2)"""
     if len(array) == 0:
         return array
@@ -27,7 +27,7 @@ def treeSort(array):
     inorder(root,res)
     return res
     
-def inorder(root, res):
+def inorder(root : Node, res : list):
     if root:
         inorder(root.left,res)
         res.append(root.data)

@@ -1,4 +1,4 @@
-def bubbleSort(array):
+def bubbleSort(array : list):
     """Complexity : O(n**2)"""
     arrayLength = len(array)
     for i in range(arrayLength):

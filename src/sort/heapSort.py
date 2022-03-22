@@ -1,4 +1,4 @@
-def heapSort(array):
+def heapSort(array : list):
     """Complexity : O(nlog(n))"""
     lengthArray = len(array)
     for i in range(lengthArray // 2 - 1, -1, -1):

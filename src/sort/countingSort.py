@@ -1,4 +1,4 @@
-def countingSort(array):
+def countingSort(array : list):
     """Complexity : O(n + k) for posiive numbers in array"""
     output = [0 for i in range(max(array) + 1)]
     for i in array:
